@@ -103,3 +103,12 @@ body {
     border-radius: 100%;
     cursor: pointer;
 }
+
+.option-clicked {
+    background-color: black !important;
+    color: white;
+}
+
+.option-clicked::before {
+    background-color: white;
+}
